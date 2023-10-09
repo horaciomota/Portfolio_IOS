@@ -1,4 +1,6 @@
 import React from 'react';
+import memoji from "../assets/memoji.webp"
+
 
 function Hero() {
   return (
@@ -6,6 +8,7 @@ function Hero() {
 <>
     <div className="mx-auto max-w-screen-lg p-4 bg-white-100 h-180vh">
     <h2 className='text-blue-600'>Ill not wast your time. I am...</h2>
+    <img src={memoji} alt="Descrição da Imagem" />
     <h1 style={{ fontSize: '96px', fontWeight: 'bold' }}>Horacio Mota</h1>
     <p style={{ fontSize: '48px' }}>
   I'm a Junior iOS Developer from Portugal based in <strong>Irlanda</strong>, passionate about <strong>Open Source</strong> projects and <strong>Swift</strong>.
