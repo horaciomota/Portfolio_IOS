@@ -1,4 +1,7 @@
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
+
 import memoji from "../assets/memoji.gif";
 import iPhoneMockup from "../assets/iPhoneMockup.png";
 import appicon from "../assets/appicon.png";
@@ -70,9 +73,8 @@ function Hero() {
                 <strong>Therapixie IOS 16+</strong>
               </h2>
               <p className="text-gray-600" style={{ fontSize: "16px" }}>
-                Therapixie simplifies therapy. I built using{" "}
-                <strong>SwiftUI</strong>, <strong>MVVM patterns</strong>,{" "}
-                <strong>SwiftData</strong>, and <strong>UITests</strong>
+                Therapixie has a designed which simplifies therapy and offers
+                self-help instruments.
               </p>
             </div>
             <div className="ml-auto hidden md:block">
@@ -83,7 +85,11 @@ function Hero() {
                 className="btn-apple"
                 style={{ padding: "10px 20px" }}
               >
-                Check on GitHub
+                <FontAwesomeIcon
+                  icon={faGithub}
+                  style={{ marginRight: "8px" }}
+                />
+                Source Code
               </a>
             </div>
 
