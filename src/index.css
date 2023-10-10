@@ -6,12 +6,21 @@
 @font-face {
   font-family: "SF Pro";
   src: url("./Font/SF-Pro-Display-Regular.otf") format("opentype");
-  /* Adicione os outros formatos de fonte aqui, se necessário */
+}
+
+@font-face {
+  font-family: "SF Pro Black";
+  src: url("./Font/SF-Pro-Display-black.ttf") format("opentype");
 }
 
 /* Defina a fonte padrão para o projeto */
 body {
   font-family: "SF Pro", sans-serif;
+}
+
+.font-black {
+  font-family: "SF Pro Black", sans-serif;
+  /* Outros estilos, como tamanho de fonte e cor, se necessário */
 }
 
 /* Estilos do botão inspirados no design da Apple */
