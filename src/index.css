@@ -2,3 +2,37 @@
 @import "tailwindcss/base";
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
+
+@font-face {
+  font-family: "SF Pro";
+  src: url("./Font/SF-Pro-Display-Regular.otf") format("opentype");
+  /* Adicione os outros formatos de fonte aqui, se necessário */
+}
+
+/* Defina a fonte padrão para o projeto */
+body {
+  font-family: "SF Pro", sans-serif;
+}
+
+/* Estilos do botão inspirados no design da Apple */
+.btn-apple {
+  background-color: #0070c9; /* Cor de fundo preta */
+  color: #fff; /* Cor do texto branca */
+  padding: 10px 100px; /* Espaçamento interno */
+  font-size: 18px; /* Tamanho da fonte */
+  border: none; /* Sem borda */
+  border-radius: 8px; /* Cantos arredondados */
+  text-decoration: none; /* Remover sublinhado de links */
+  cursor: pointer; /* Alterar o cursor ao passar o mouse */
+
+  /* Efeito de hover para destacar o botão */
+  transition: background-color 0.3s ease;
+}
+
+.btn-apple:hover {
+  background-color: #333; /* Cor de fundo escura ao passar o mouse */
+}
+
+.full-width-button {
+  width: 10%;
+}
