@@ -16,9 +16,9 @@ body {
 
 /* Estilos do botão inspirados no design da Apple */
 .btn-apple {
-  background-color: #000; /* Cor de fundo preta */
+  background-color: #0070c9; /* Cor de fundo preta */
   color: #fff; /* Cor do texto branca */
-  padding: 10px 20px; /* Espaçamento interno */
+  padding: 10px 100px; /* Espaçamento interno */
   font-size: 18px; /* Tamanho da fonte */
   border: none; /* Sem borda */
   border-radius: 8px; /* Cantos arredondados */
@@ -31,4 +31,8 @@ body {
 
 .btn-apple:hover {
   background-color: #333; /* Cor de fundo escura ao passar o mouse */
+}
+
+.full-width-button {
+  width: 10%;
 }
