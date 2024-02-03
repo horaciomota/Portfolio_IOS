@@ -66,9 +66,9 @@ function Hero() {
       <div className="mx-auto max-w-2xl">
         <h2 className="font-SFPro text-xl font-bold text-black mb-2 p-4">IOS Apps  </h2>
 
-        <div className="flex space-x-4 mb-4 flex flex-col lg:flex-row">
+        <div className="flex mb-4 flex-col md:space-y-4 lg:space-y-0 lg:space-x-4 lg:flex-row">
           {/* Projeto 1*/}
-          <div className=" bg-white border border-gray-200 p-4 rounded-md">
+          <div className=" bg-white border border-gray-200 p-4 rounded-sm">
             <div className="flex items-center mb-3">
               <div className="w-14 h-14 bg-gray-300 overflow-hidden rounded-lg">
                 <div className="w-full h-full overflow-hidden">
@@ -119,7 +119,8 @@ function Hero() {
               </div>
             </div>
 
-            <p className="text-gray-600 mb-2 text-sm mb-3"> Simplify vehicle care routines. Boost your confidence on your car. Monitor services, receive timely alerts. Take control of your vehicle's health with Car Maintenance the ultimate app.</p>
+            <p className="text-gray-600 mb-2 text-sm mb-3"> Simplify vehicle care routines. Boost your confidence on your car. Monitor services, receive timely alerts. 
+            Take control of your vehicle's health with Car Maintenance the ultimate app.</p>
             <div className="flex flex-wrap gap-2">
               <div className="bg-gray-50 p-2 rounded-md">
                 <p className="text-gray-600 mb-0 text-xs">SwiftUI</p>
