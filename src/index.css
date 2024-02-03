@@ -4,24 +4,27 @@
 @import "tailwindcss/utilities";
 
 @font-face {
-  font-family: "SF Pro";
+  font-family: "sfPro";
   src: url("./Font/SF-Pro-Display-Regular.otf") format("opentype");
 }
 
 @font-face {
-  font-family: "SF Pro Black";
-  src: url("./Font/SF-Pro-Display-black.ttf") format("opentype");
+  font-family: "fontRegular";
+  src: url("./Font/LiberationMono-Regular.ttf") format("opentype");
+}
+
+@font-face {
+  font-family: "fontBold";
+  src: url("./Font/LiberationMono-Bold.ttf") format("opentype");
 }
 
 /* Defina a fonte padrão para o projeto */
 body {
-  font-family: "SF Pro", sans-serif;
+  font-family: "fontRegular","fontBold", "sfPro", sans-serif;
+  color: #6b7280  ;
 }
 
-.font-black {
-  font-family: "SF Pro Black", sans-serif;
-  /* Outros estilos, como tamanho de fonte e cor, se necessário */
-}
+
 
 /* Estilos do botão inspirados no design da Apple */
 .btn-apple {
