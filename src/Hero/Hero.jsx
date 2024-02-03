@@ -5,9 +5,6 @@ import appicon from "../assets/appicon.png";
 import appIcon2 from "../assets/appIcon2.png";
 import appIcon3 from "../assets/appIcon3.png";
 
-
-
-
 function Hero() {
   return (
     <div className="portfolio-container">
@@ -69,9 +66,9 @@ function Hero() {
       <div className="mx-auto max-w-2xl">
         <h2 className="font-SFPro text-xl font-bold text-black mb-2 p-4">IOS Apps  </h2>
 
-        <div className="flex space-x-4 mb-4">
+        <div className="flex space-x-4 mb-4 flex flex-col lg:flex-row">
           {/* Projeto 1*/}
-          <div className="Flex-1 bg-white border border-gray-200 p-4 rounded-md">
+          <div className=" bg-white border border-gray-200 p-4 rounded-md">
             <div className="flex items-center mb-3">
               <div className="w-14 h-14 bg-gray-300 overflow-hidden rounded-lg">
                 <div className="w-full h-full overflow-hidden">
@@ -260,7 +257,7 @@ function Hero() {
         </div>
 
         {/* Skills Section */}
-        <div className="mb-4">
+        <div className="hidden lg:block mb-4">
           <h2 className="font-SFPro text-xl font-bold text-black mb-2">Skills</h2>
           <div className="flex space-x-2">
             <div className="bg-black text-white p-2 rounded-lg">
