@@ -66,7 +66,7 @@ function Hero() {
       <div className="mx-auto max-w-2xl">
         <h2 className="font-SFPro text-xl font-bold text-black mb-2 p-4">IOS Apps  </h2>
 
-        <div className="flex mb-4 flex-col md:space-y-4 lg:space-y-0 lg:space-x-4 lg:flex-row">
+        <div className="flex mb-4 flex-col lg:space-y-0 lg:space-x-4 lg:flex-row">
           {/* Projeto 1*/}
           <div className=" bg-white border border-gray-200 p-4 rounded-sm">
             <div className="flex items-center mb-3">
@@ -229,7 +229,7 @@ function Hero() {
         <div className="mb-7">
           <div className="flex justify-between items-center mb-2">
             <div className="flex items-center">
-              <h3 className="font-SFPro text-1xl font-bold text-black text-base leading-6">ADENTIS Portugal</h3>
+              <h3 className="font-SFPro text-1xl font-bold text-black text-base leading-6">ADENTIS</h3>
               <p className="text-xs bg-gray-50 px-2 py-1 rounded-md ml-2">in-site</p>
             </div>
             <p className="text-right text-gray-600 text-sm">Nov 2022 - May 2023</p>
