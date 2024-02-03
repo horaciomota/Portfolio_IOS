@@ -66,7 +66,7 @@ function Hero() {
       <div className="mx-auto max-w-2xl">
         <h2 className="font-SFPro text-xl font-bold text-black mb-2 p-4">IOS Apps  </h2>
 
-        <div className="flex mb-4 flex-col lg:space-y-0 lg:space-x-4 lg:flex-row">
+        <div className="flex mb-4 flex-col space-y-4 lg:space-y-0 lg:flex-row lg:space-x-4 ">
           {/* Projeto 1*/}
           <div className=" bg-white border border-gray-200 p-4 rounded-sm">
             <div className="flex items-center mb-3">
