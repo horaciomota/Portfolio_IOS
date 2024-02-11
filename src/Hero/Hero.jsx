@@ -69,6 +69,7 @@ function Hero() {
         <div className="flex mb-4 flex-col space-y-4 lg:space-y-0 lg:flex-row lg:space-x-4 ">
           {/* Projeto 1*/}
           <div className=" bg-white border border-gray-200 p-4 rounded-sm">
+          <a href="https://github.com/horaciomota/tabnews.com.br" target="_blank" rel="noopener noreferrer">
             <div className="flex items-center mb-3">
               <div className="w-14 h-14 bg-gray-300 overflow-hidden rounded-lg">
                 <div className="w-full h-full overflow-hidden">
@@ -100,9 +101,10 @@ function Hero() {
               </div>
 
             </div>
+            </a>
           </div>
           {/* Projeto 2*/}
-
+          <a href="https://github.com/horaciomota/Basic-Car-Maintenance" target="_blank" rel="noopener noreferrer">
           <div className="Flex-1 bg-white border border-gray-200 p-4 rounded-md">
             <div className="flex items-center mb-3">
               <div className="w-14 h-14 bg-gray-300 overflow-hidden rounded-lg">
@@ -137,6 +139,7 @@ function Hero() {
 
             </div>
           </div>
+          </a>
 
         </div>
 
