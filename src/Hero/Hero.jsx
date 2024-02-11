@@ -192,6 +192,27 @@ function Hero() {
         <h2 className="font-SFPro text-xl font-bold text-black	mb-2">Work Experience</h2>
 
         {/* 1 Experience */}
+
+        <div className="mb-7">
+          <div className="flex justify-between items-center mb-2">
+            <div className="flex items-center">
+              <h3 className="font-SFPro text-1xl font-bold text-black text-base leading-6">ADENTIS</h3>
+              <p className="text-xs bg-gray-50 px-2 py-1 rounded-md ml-2">in-site</p>
+            </div>
+            <p className="text-right text-gray-600 text-sm">Nov 2022 - May 2023</p>
+          </div>
+          <p className="text-sm text-gray-600 mb-2">Intern web/mobile Developer</p>
+          <p className="text-sm">
+            During my internship, I contributed to the development of an application for a large gym network with over 1200 employees.</p>
+          <br></br>
+          <ul className="list-disc ml-6 text-sm">
+            <li>Developed Web and Mobile Solutions for diverse clients. Utilized native languages such as Swift and Kotlin, along with Firebase.</li>
+            <li>Learned iOS app development using the latest and greatest technologies like SwiftUI</li>
+            <li>Worked with Firebase Cloud Functions and made use of Firestore to develop the Android and iOS apps.</li>
+          </ul>
+        </div>
+
+        {/* 2 Experience */}
         <div className="mb-7">
           <div className="flex justify-between items-center mb-2">
             <div className="flex items-center">
@@ -222,26 +243,6 @@ function Hero() {
             <li>Created 13 endpoints in the TabNews API.</li>
             <li>Implemented a feature that estimated reading time for each article.</li>
             <li>Assisted in conducting code reviews with new contributors to the project.</li>
-          </ul>
-        </div>
-
-        {/* 2 Experience */}
-        <div className="mb-7">
-          <div className="flex justify-between items-center mb-2">
-            <div className="flex items-center">
-              <h3 className="font-SFPro text-1xl font-bold text-black text-base leading-6">ADENTIS</h3>
-              <p className="text-xs bg-gray-50 px-2 py-1 rounded-md ml-2">in-site</p>
-            </div>
-            <p className="text-right text-gray-600 text-sm">Nov 2022 - May 2023</p>
-          </div>
-          <p className="text-sm text-gray-600 mb-2">Intern Frontend Developer</p>
-          <p className="text-sm">
-            During my internship, I contributed to the development of an application for a large gym network with over 1200 employees.</p>
-          <br></br>
-          <ul className="list-disc ml-6 text-sm">
-            <li>Engaged in the development of dynamic and responsive user interfaces using vanila JavaScript and NodeJS.</li>
-            <li>Executed comprehensive refactors to achieve a unified source of truth and state-driven UI changes.</li>
-            <li>Participated in the implementation of reactive features using JavaScript and React.js to enhance real-time data updates within the user interface.</li>
           </ul>
         </div>
 
