@@ -56,7 +56,7 @@ function Hero() {
       <div className="mx-auto max-w-2xl p-4 ">
         <h2 className="font-SFPro text-xl font-bold text-black mb-4">About</h2>
         <p className="text-sm">
-          Im Portuguese <strong>IOS Developer</strong>,with over <strong>7 months</strong> of professional experience in Web development, In 2023 i transitioned my focus to mobile development, dedicating the last year to mastering SwiftUi. I work mostly with <strong>SwiftUI</strong>, Firebase, MVVM architecture and SOLID principals.
+          Im Portuguese <strong>IOS Developer</strong>,with over <strong>7 months</strong> of professional experience in Web development, In 2023 i transitioned my focus to mobile development, dedicating the last year to mastering SwiftUi. I work mostly with <strong>SwiftUI</strong>, Firebase, MVVM architecture and SOLID principles.
           I'm proud to have 2 apps published on the App Store and to actively contribute to the <strong>open-source</strong> community on Github.
         </p>
 
@@ -251,7 +251,7 @@ function Hero() {
           <h2 className="font-SFPro text-xl font-bold text-black	mb-2">Education</h2>
           <div className="flex justify-between items-center mb-2">
             <div className="flex items-center">
-              <h3 className="font-SFPro text-1xl font-bold text-black text-base leading-6">Anhanguera University of Technology</h3>
+              <h3 className="font-SFPro text-1xl font-bold text-black text-base leading-6">Cruzeiro do sul University</h3>
             </div>
             <p className="text-right text-gray-600 text-sm">2020 - 2023</p>
           </div>
